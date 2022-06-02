@@ -77,8 +77,6 @@ paths:
                 email:
                   type: string
                   description: 'If a new email is given, the user''s email verified property will be set to false.'
-                dateOfBirth:
-                  type: string
             examples:
               Update First Name:
                 value:
@@ -128,14 +126,10 @@ paths:
                   type: string
                 email:
                   type: string
-                dateOfBirth:
-                  type: string
-                  format: date
               required:
                 - firstName
                 - lastName
                 - email
-                - dateOfBirth
             examples:
               Create User Bob Fellow:
                 value:
