@@ -164,10 +164,6 @@ components:
         email:
           type: string
           format: email
-        dateOfBirth:
-          type: string
-          format: date
-          example: '1997-10-31'
         emailVerified:
           type: boolean
           description: Set to true if the user's email has been verified.
